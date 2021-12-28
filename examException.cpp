@@ -11,6 +11,7 @@ int main() {
 
 bool exam(string str) {
     stack<char> s;
+    //s只存储[, (, {
     for (auto& elem : str) {
         switch (elem) {
             case '(':
